@@ -4,10 +4,18 @@ import './Components/styles/style.scss';
 import Alnoor from './Components/Alnoor';
 
 function App() {
+
+  const mySetinterval = setInterval(()=>{
+    myEvent()
+  },5000);
+
   return (
     <div className="App">
       {/* <Twittersearch /> */}
-      <Alnoor />
+      {/* <Alnoor /> */}
+
+      <button type="button" onClick={myEvent}>text</button>
+
     </div>
   );
 }
