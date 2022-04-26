@@ -21,8 +21,7 @@ function App() {
       {/* <Twittersearch /> */}
       <Alnoor />
 
-      {/* <button type="button" onClick={myEvent}>text</button> */}
-      
+      {/* <button type="button" onClick={myEvent}>text</button> */}  
 
 
 
