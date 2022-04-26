@@ -9,12 +9,22 @@ function App() {
     myEvent()
   },5000);
 
+  let myarr = [10, 12, 15];
+  var arrmax= 0;
+  for(let i=0;i<myarr.length;i++){   
+    myarr[i] > arrmax;
+    arrmax = myarr[i];
+  }
+
   return (
     <div className="App">
       {/* <Twittersearch /> */}
       {/* <Alnoor /> */}
 
       <button type="button" onClick={myEvent}>text</button>
+      
+
+
 
     </div>
   );
